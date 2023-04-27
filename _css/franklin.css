@@ -1,3 +1,25 @@
+/* table rules */
+
+th {
+  background-color: navy;
+  color: white;
+  font-weight: bold;
+}
+
+tr:nth-child(odd) {
+  background: lightgray;
+}
+
+/* custom css */
+
+.source {
+  font-size: var(--small);
+  font-style: italic;
+}
+
+
+
+
 /* ==================================================================
     VARIABLES
 ================================================================== */
